@@ -1,0 +1,60 @@
+/* pages/home/home.wxss */
+.swiper{
+  width: 100%;
+  padding: 0 20rpx;
+}
+
+swiper image{
+  width: 710rpx;
+  height: 350rpx;
+}
+.main-content{
+  padding: 0rpx 40rpx 0rpx 10rpx;
+}
+
+.content-item{
+  margin-top: 40rpx;
+}
+.content-item .sort{
+  font-size: 16px;
+  padding-left: 20rpx;
+  border-left: 2px solid #000;
+  line-height: 26rpx;
+  height: 26rpx;
+}
+.content-item .content{
+  margin-top: 40rpx;
+  display: flex;
+  justify-content: space-between;
+  color: #555;
+  
+
+}
+.content .box-l .img{
+  width: 230rpx;
+  height: 300rpx;
+}
+.box-r{
+  margin-left: 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box-r .book-title{
+  font-size: 16px;
+  color: #333;
+
+}
+.box-r .book-content{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:3;
+  overflow: hidden;
+  color: #444;
+  font-size: 14px;
+}
+.box-r .book-footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
